@@ -1,0 +1,2125 @@
+/* CSS layout */
+
+/* GENERAL SETTING */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	color: #333333;
+	background-color:#ECECEC;
+}
+a:link {
+	color: #003266;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #003266;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/***********************DEBUT CESS V3***************************/
+
+#container{width:1050px; margin:0 auto;}
+.container{width:1050px; margin:0 auto;}
+#container-in{width:auto; margin:0 auto;}
+.container-in{width:auto; margin:0 auto;}
+
+#topbar {
+	width: 100%;
+	/*min-width:1050px;*/
+	margin: 20px auto 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 5px 2px rgba(0,0,0,.1);
+}
+
+#topbar-interne {
+	width: 100%;
+	min-width:1050px;
+	margin: 0 auto 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 5px 2px rgba(0,0,0,.1);
+}
+
+#topbar-interne-fixed {
+	width: 100%;
+	min-width:1050px;
+	margin: 0 auto 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 5px 2px rgba(0,0,0,.1);
+	position:fixed;
+}
+.PhotoVideoUne{
+	width:20%;
+	text-align:left;
+	vertical-align:top;
+}
+.width290{width:290px;}
+.width280{width:280px;}
+.width288{width:288px;}
+.width40{width:40%;}
+.width50{width:50%;}
+.width200{width:200px;}
+.width220{width:220px;}
+.width250{width:250px;}
+.width270{width:270px;}
+.width33{width:33%}
+.width30{width:30%}
+.width20{width:20%}
+.width70{width:70%}
+.width142{width:142px;}
+iframe{border:0;}
+.mr20{margin-right:20px;}
+.mb5{margin-bottom:-5px;}
+.mb5 a{text-decoration:none;}
+.h200{height:200px;}
+
+.sponSor{color: #5e5e5e;
+    float: left;
+    font-size: 10px;
+    margin-top: 25px;
+    padding: 0 0 6px 6px;
+    text-align: left;
+    margin-right: 36px;}
+.sponSor2Rows{color: #5e5e5e;float: left;font-size: 10px; margin-top: 18px; padding: 0 0 6px 6px;text-align: left;}
+
+.tbb{border: solid 1px #cccccc; background:url(https://abidjan.net/images_diverses/pic_mdl_trafic_routier_meteo_2.jpg) }
+
+.comSt{float:left; width:350px;}
+.comStRight{float:right; margin-right:10px; margin-top: 8px;}
+
+.BtnAbnetJaune {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background: #fdcc28;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 6px 10px;
+    box-shadow: 0 0 1px #FC0;
+    border: 1px solid #e9dfbe;
+    font-size: 16px;
+	margin-bottom:10px;
+	margin-top:10px;
+	display:inline-block;
+}
+.mtop10{margin-top:10px;}
+.h148{height:148px}
+.h90{height:90px}
+#navbar{width:auto; display:block; height:24px;}
+
+#main{width:auto; display:block;}
+
+#content_left{
+	width:725px;
+	margin-right:20px;
+	float:left;
+	display:block;
+}
+
+.content_left{
+	width:725px;
+	margin-right:20px;
+	float:left;
+	display:block;
+}
+
+
+#content_left_newsletter{
+	width:605px;
+	margin-right:20px;
+	float:left;
+	display:block;
+	font-size:13px;
+}
+
+.content_left_newsletter{
+	width:605px;
+	margin-right:20px;
+	float:left;
+	display:block;
+	font-size:13px;
+}
+
+#content_left_mini{
+	width:676px;
+	margin-right:20px;
+	float:left;
+	display:block;
+}
+
+.content_left_mini{
+	width:676px;
+	margin-right:20px;
+	float:left;
+	display:block;
+}
+
+#content_egal_left{
+	width:515px;
+	margin-right:20px;
+	float:left;
+	display:block;
+}
+#content_egal_right{
+	width:515px;
+	float:left;
+	display:block;
+}
+
+#content_right{
+	width:300px;
+	float:left;
+	display:block;
+}
+
+.content_right{
+	width:300px;
+	float:left;
+	display:block;
+}
+
+#content_right_newsletter{
+	width:420px;
+	float:left;
+	display:block;
+}
+
+#content_right_large{
+	width:354px;
+	float:left;
+	display:block;
+}
+#content_trnsp{
+	width:300px;
+	float:left;
+	display:block;
+}
+
+#content_top{
+	width:724px;
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+}
+
+
+#content_head_news_left {
+    display: block;
+    float: left;
+    margin-right: 0px;
+    width: 725px;
+    border-right: 1px dotted #dcdcdc;
+}
+
+#content_head_news_right {
+  width: 300px;
+  float: left;
+  display: block;
+}
+
+#column_left{
+	width:403px;
+	margin-right:20px;
+	float:left;
+}
+
+.h38{height:38px}
+.h208{height:208px;}
+.h528{height:528px}
+.w327{width:327px}
+.column_left{
+	width:403px;
+	margin-right:20px;
+	float:left;
+}
+
+
+.h240{height:240px;}
+
+#column_big_center{
+	width:403px;
+	float:left;
+}
+
+#column_left_300{
+	width:300px;
+	margin-right:20px;
+	float:left;
+}
+
+#column_center{
+	width:300px;
+	margin-right:10px;
+	float:left;
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+}
+
+#column_right{
+	width:300px;
+	float:left;
+}
+
+.column_right{
+	width:300px;
+	float:left;
+}
+
+ 
+.column_right_f4{
+	width:246px;
+	float:left;
+}
+
+#column_left_f4{
+	width:248px;
+	margin-right:20px;
+	float:left;
+}
+.column_left_f4{
+	width:248px;
+	margin-right:20px;
+	float:left;
+}
+
+#column_in_left_f2{
+	width:353px;
+	margin-right:20px;
+	float:left;
+}
+#column_in_right_f2{
+	width:352px;
+	float:left;
+}
+
+
+
+#column_in_left_f3{
+	width:228px;
+	margin-right:20px;
+	float:left;
+}
+ 
+.column_in_left_f3{
+	width:228px;
+	margin-right:20px;
+	float:left;
+}
+ 
+
+#column_in_left_f4{
+	width:166px;
+	margin-right:20px;
+	float:left;
+}
+ 
+.column_in_left_f4{
+	width:166px;
+	margin-right:20px;
+	float:left;
+}
+
+
+
+#column_left_f3{
+	width:337px;
+	margin-right:20px;
+	float:left;
+}
+
+.column_left_f3{
+	width:337px;
+	margin-right:20px;
+	float:left;
+}
+
+ 
+#column_left_f2{
+	width:515px;
+	margin-right:20px;
+	float:left;
+}
+
+.column_left_f2{
+	width:515px;
+	margin-right:20px;
+	float:left;
+}
+
+#module_titro{
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #DCDCDC;
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+
+#module_transp_shadow{
+	box-shadow:0px -1px 30px -1px rgba(50, 50, 50, 0.4);
+}
+
+#module_docs_top{
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+	border-color: #DCDCDC;
+	background-color: #FFFFFF;
+	padding: 5px;
+	height:250px
+}
+#module_docs_bottom{
+	background-color: #f5f5f5;
+	border: 1px solid #DCDCDC;
+	padding: 15px;
+	height: 100px;	
+	/*width: 195px;*/
+	width: 206px;
+}
+
+.bottomPicC3{
+	background-color: #f5f5f5;
+	border: 1px solid #DCDCDC;
+	padding: 15px;
+	height: 100px;	
+	width: 195px;
+}
+
+
+#module_cam_top{
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+	border-color: #DCDCDC;
+	background-color: #FFFFFF;
+	width:225px
+}
+#module_cam_bottom{
+	background-color: #f5f5f5;
+	border: 1px solid #DCDCDC;
+	padding: 15px;
+	height: 50px;	
+	width:225px
+	
+}
+
+
+
+#module_shadow{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	-moz-box-shadow: 0 0 20px 0px #888;
+	-webkit-box-shadow: 0 0 20px 0px #888;
+	box-shadow: 0 0 20px 0px #888;
+}	
+
+.module_shadow{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	-moz-box-shadow: 0 0 20px 0px #888;
+	-webkit-box-shadow: 0 0 20px 0px #888;
+	box-shadow: 0 0 20px 0px #888;
+}	
+	
+#module{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.width100{
+	width:100%;
+}
+
+.width205{
+	width:205px;
+}
+.module{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#moduleSprt{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	min-height:478px;
+	border-bottom:2px solid #84ad09;
+}
+
+#moduleSport{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom:2px solid #84ad09;
+}
+
+#moduleSportClassement{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom:2px solid #84ad09;
+	height:485px;
+	overflow:hidden;
+}
+
+
+#moduleSprt img{
+	width:317px !important;
+}
+.module-transp{
+	padding:5px;
+}
+
+
+.module-separation{
+	border-top:1px solid #DCDCDC;
+	padding:10px 5px 0 5px;
+}
+
+.module-separation-no-border{
+	padding:10px 5px 0 5px;
+}
+
+
+
+#module_5{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+}
+
+.module_5{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+}
+
+
+#module_5_gouv{
+	background-color:#FFFFFF;
+	border:1px solid #D30826;
+	padding:5px;
+}
+
+#module_5_pmGouv{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	position:relative;
+}
+
+
+#module_10{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:10px;
+}
+
+#module_round{
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	padding:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+
+
+
+div.spacer{
+	clear:both;
+	display:block;
+	height:20px;
+}
+div.spacer4{
+	clear:both;
+	display:block;
+	height:4px;
+}
+#footer{
+	width:auto;
+	display:block;
+	 
+	background-color:#FFFFFF;
+	border:1px solid #DCDCDC;
+	    padding: 10px;
+	}
+
+.text-center{
+	text-align:center;
+}
+.h366 {
+	height:366px;
+}
+.h275 {
+	height:275px;
+}
+.h750 {
+	height:670px;
+}
+
+.h260 {
+	height:260px;
+}
+.h265 {
+	height:265px;
+}
+.h290 {
+	height:290px;
+}
+
+.h350 {
+	height:350px;
+}
+
+	
+#top_nav_menu_reseau_weblogy {
+	/*background-position: left center;*/
+	position:relative;
+	padding: 8px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2C2C2C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #FFFFFF;
+	background-image: url('https://www.abidjan.net/images/red_arrow_reseau.jpg');
+	background-repeat: no-repeat;
+}
+
+
+
+
+#top_nav_menu_reseau_weblogy strong.reseau{
+	padding: 0 18px 0 10px;
+	color:#fff;
+}
+
+
+#top_nav_menu_reseau_weblogy a{
+	padding:0 0px 0 4px;
+	color:#c0c0c0;
+}
+
+#top_nav_menu_reseau_weblogy a.activeRes{
+	color:#fff;
+	font-weight:bold;
+	}
+
+#top_nav_menu_interne {
+	padding: 5px;
+	width: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #EFEFEF;
+	font-family: Verdana;
+	font-size: x-small;
+	font-weight: bold;
+}
+.h50{heigth:50px;}
+.h60{heigth:60px; width:278px; overflow:scroll}
+.h90{heigth:90px;}
+.h200{heigth:200px; width:236px}
+.h200t{heigth:200px;}
+.h240{heigth:240px;}
+.h180{heigth:180px;}
+.width{width:25%;}
+#rsx_fixed{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:3000;
+}
+
+
+/* Header Logo*/
+
+.header{
+	width:1050px;
+	margin:auto;
+	
+	}
+	
+.tdHeader{
+	width:260px;
+	}
+.headerPens{
+	width: 500px;
+	text-align:right;
+}	
+
+
+/* Fade texte */
+
+.gradientEllipsis {
+    position: relative;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.gradientEllipsis .dimmer {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 56%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(56%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 56%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 56%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 56%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 56%,rgba(255,255,255,1) 100%);
+    content: "";
+}
+
+/* Pointiller de separation */
+
+.pointille {
+	border-top: 1px dotted rgb(153, 153, 153);
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-top-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pointilleH5 {
+    border-top: 1px dotted #dcdcdc;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pointilleH10 {
+	border-top: 1px dotted rgb(153, 153, 153);
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-top-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pointille-blc {
+	border-top: 2px dotted rgb(153, 153, 153);
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-top-color: #333333;
+}
+
+.pointilleAnniversaire {
+	border-top: 1px dotted rgb(153, 153, 153);
+	/*margin-top: 10px;
+	padding-bottom: 10px;*/
+	padding-bottom: 5px;
+	border-top-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* GESTION DES IMAGES */
+
+#img_curve_border {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#img_curve_border_gouv {
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 50%;
+}
+
+/* PENSEE DU JOUR */
+
+#Pensee_content {
+	margin-right: 0px;
+	width: 500px;
+	text-align: center;
+	height: auto;
+}
+
+.PenseeTableau {	
+	white-space: nowrap;}
+
+
+.PenseeTalkBull {	
+	padding: 5px; 
+	border: 2px solid #ECECEC; 
+	width: auto; 
+	height: auto; 
+	right: auto; 
+	left: auto;	
+	text-align: left;	
+}
+
+.PenseeTalkArrow {
+	vertical-align: top;
+}
+
+/*
+.PenseeAuthorImage {
+	border-style: solid;
+	border-width: 1px;
+	margin: 5px;
+	vertical-align: middle;
+}
+*/
+
+#PenseeAuthorImage {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#ECECEC;	
+}
+
+
+.PenseeAuthorName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+/* PRESSE */
+
+.CategoryArticleTitle {
+	font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 21px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #D10000;
+}
+
+.CategoryArticleTitleSml {
+	font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #c40101;
+	font-weight:bold;
+}
+
+.ArticleEpingle {
+	float: right;
+	vertical-align: middle;
+	margin-top:-15px;
+}
+
+
+.FontMainArticleTitle{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bolder;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+.FontArticleTitle {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+.FontTitleRelatedArticle {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+.FontTitleDepeche {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+.FontArticleSource {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	color: #999999;
+}
+.FontArticleDate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	color: #999999;
+}
+.Legende {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+}
+
+.FontPlusContenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #999999;
+}
+
+
+.FontTextSousTitle {
+	font-family: verdana;
+	font-size: x-small;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	color: #999999;
+}
+
+
+.FontRubriqueName {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #909090;
+	font-size: 22px;
+	font-weight: lighter;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+.FontArticleMainTitle {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+.FontArticleEclusif{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+/*--------------------DEBUT TRICKER----------------------------*/
+#editorial{
+  display:block;
+  width:310px;
+  height:86px;
+  /*background:url("images/logoSIFCA_sp3.jpg") no-repeat;------50 ans*/
+  background:url("images/logoSIFCA_sp2.jpg") no-repeat;
+  background-position:0 15px;
+  margin:0 auto;
+  border:dotted 1px #F0F;
+}
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#editorial:hover,#editorial:active,#editorial:focus{
+  background-position:0 -105px;
+}
+
+
+.tricker_main{
+  display:block;
+  width:auto;
+  height:85px;
+  margin:0 auto;
+  background-color:#FFF;
+  
+ font-family: Arial,Helvetica,sans-serif;
+ font-size: x-small;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: normal;
+ clear:both;
+  
+}
+.tricker_main2{
+	display:block;
+	width:auto;
+	height: 98px;
+	border-bottom: 1px dotted #DCDCDC;
+	background-color:#FFF;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	clear:both;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;  
+}
+
+.tricker_main3{
+	display:block;
+	width:auto;
+	height: 85px;
+	border-top: 1px dotted #DCDCDC;
+	background-color:#FFF;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	clear:both;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;  
+}
+
+.in_tricker_main2{
+  display:block;
+  width:175px;
+  height:75px;
+  margin-left:0px;
+}
+
+/*DEBUT TRICKER 0---------------------*/
+#tricker0{
+  display:block;
+  width:202px;
+  height:85px;
+  background:url("https://www.abidjan.net/images/logoPETROCI_sp.jpg") no-repeat;
+  background-position:5px 8px;
+  margin-top:0;
+  float:left;
+  border-right: 1px dotted #DCDCDC;
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker0:hover,#tricker0:active,#tricker0:focus{
+  background-position:5px -80px;
+}
+
+
+.link_tricker0{
+  display:block;
+  width:60px;
+  height:85px;
+  margin-left:0px;
+  float:left;
+}
+
+/*Petroci 40ans */
+
+/*Sans Sponsoring Petroci 
+#tricker0-2{
+  display:block;
+  width:212px;
+  height:85px;
+  background:url("https://www.abidjan.net/images/icon_oil.gif") no-repeat;
+  background-position:0px 5px;
+  margin-top:0;
+  float:left;
+  border-right: 1px dotted #DCDCDC;
+  margin-left:10px;
+}*/
+
+
+
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker0-2:hover,#tricker0-2:active,#tricker0-2:focus{
+  background-position:45px -83px;
+}
+
+
+.link_tricker0-2{
+  display:block;
+  width:91px;
+  height:76px;
+  margin-left:0px;
+  float:left;
+}
+
+.right_tricker0-2{
+	display:block;
+	width:110px;
+	float:left;
+	padding-top:12px;
+	margin-left:8px;
+}
+
+/*Petroci 40ans */
+
+.link_tricker2{
+  display:block;
+  width:60px;
+  height:85px;
+  margin-left:0px;
+  float:left;
+}
+
+.right_tricker0{
+	display:block;
+	width:103px;
+	float:left;
+	padding-top:12px;
+}
+.lg_tricker0{
+  display:block;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+}
+.lg_date_tricker0{
+  display:block;
+  width:98px;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+  text-align:right;
+  padding-right:40px;
+}
+
+.lg_tricker0-lft{
+	width:40px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+.lg_tricker0-ght{
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	padding-left:4px;
+}
+
+.lg_tricker0-mdl{
+ width:11px;
+ height:15px;
+ vertical-align:middle;
+ float:left;
+ display:block;
+ margin:0 2px;
+ text-align:center;
+}
+
+
+/*FIN TRICKER 0---------------------*/
+
+/*DEBUT TRICKER 1---------------------*/
+#tricker1{
+  display:block;
+  width:212px;
+  height:85px;
+  background:url("https://www.abidjan.net/images/logoECOBANK_sp.jpg") no-repeat;
+  background-position:5px 13px;
+  margin-top:0;
+  float:left;
+  border-right: 1px dotted #DCDCDC;
+  margin-left:12px;
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker1:hover,#tricker1:active,#tricker1:focus{
+  background-position:5px -104px;
+}
+
+.link_tricker1{
+  display:block;
+  width:103px;
+  height:85px;
+  margin-left:0px;
+  float:left;
+}
+
+.lg_tricker1-lft{
+	width:35px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+.lg_date_tricker1{
+  display:block;
+  height:15px;
+  margin-bottom:2px;
+  float:right;
+  margin-right:37px;
+}
+
+/*FIN TRICKER 1---------------------*/
+
+
+/*DEBUT TRICKER 2---------------------*/
+#tricker2{
+	display:block;
+	width:285px;
+	height:85px;
+	/*background:url("https://www.abidjan.net/images/logoSIFCA_sp2.jpg") no-repeat;
+	background-position:0 15px;*/
+	background:url("https://www.abidjan.net/images_diverses/pic-tricker-palme.jpg") no-repeat;
+	background-position:0 15px;
+	margin-top:0;
+	margin-left:10px;
+	float:left;
+	border-right: 1px dotted #DCDCDC;
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker2:hover,#tricker2:active,#tricker2:focus{
+  /*background-position:0 -104px;*/
+	background-position:0 -102px;
+}
+.right_tricker2{
+	display:block;
+	width:175px;
+	float:left;
+	padding-top:12px;
+}
+
+.link_tricker2{
+  display:block;
+  width:108px;
+  height:85px;
+  margin-left:0px;
+  float:left;
+}
+.lg_tricker2-lft{
+	width:77px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+.lg_date_tricker2{
+  display:block;
+  height:15px;
+  margin-bottom:2px;
+  float:right;
+  margin-right:15px;
+}
+.lg_tricker2{
+  display:block;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+}
+
+/*FIN TRICKER 2---------------------*/
+
+/*DEBUT TRICKER 3---------------------*/
+#tricker3{
+  display:block;
+  width:280px;
+  height:85px;
+  /*background:url("https://www.abidjan.net/images/logoBRVM_sp.jpg") no-repeat;*/
+  background:url("https://www.abidjan.net/images/sponsoring/logoBRVM_new_sp.jpg") no-repeat;
+  background-position:5px 13px;
+  margin-top:0;
+  margin-left:9px;
+  float:left;
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker3:hover,#tricker3:active,#tricker3:focus{
+  background-position:5px -88px;
+}
+
+.link_tricker3{
+  display:block;
+  width:108px;
+  height:104px;
+  margin-left:0px;
+  float:left;
+}
+.right_tricker3{
+	display:block;
+	width:170px;
+	float:left;
+	padding-top:12px;
+}
+
+.lg_tricker3{
+  display:block;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+}
+
+.lg_tricker3-lft{
+	width:55px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+.lg_tricker3-ght{
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	padding-right:4px;
+}
+
+.lg_date_tricker3{
+  display:block;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+}
+
+.link_right_tricker3{
+	width:170px;
+	height: 63px;
+    position: relative !important;
+	left: 0 !important;
+    top: 0px !important;
+    z-index: 20px;	
+}
+
+.link_right_tricker3:hover{
+	background:url("https://www.abidjan.net/images/sponsoring/arrowR_Sp.gif") no-repeat;
+	background-position: 50px 2px ;
+	background-color:#FFFFFF;
+	opacity:0.7;
+}
+
+
+/*FIN TRICKER 3---------------------*/
+
+/*DEBUT TRICKER 4---------------------*/
+#tricker4{
+  display:block;
+  width:695px;
+  height:75px;
+  background:url("https://www.abidjan.net/images/logoCCC_OLAM_sp.jpg") no-repeat;
+  background-position:0px 8px;
+  margin:0 auto;
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker4:hover,#tricker4:active,#tricker4:focus{
+  background-position:0px -98px;
+}
+.right_tricker4{
+	display:block;
+	float:left;
+	margin-left: 0px !important;
+}
+.lg_tricker4-ght{
+	height:15px;
+	vertical-align:middle;
+	float:right;
+	display:block;
+	padding-left:6px;
+	text-align:right;
+}
+
+.lg_date_tricker4{
+  display: block;
+  height: 15px;
+  margin-bottom: 2px;
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+  margin-left: 10px;
+  padding-left: 15px;
+  border-left: 1px solid #ddd;
+}
+
+.lg_tricker4-lft{
+	width:45px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+.lg_tricker4-lft2{
+	width:32px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+
+.lg_cBx{
+	margin-left: 9px;
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.lg_tricker4{
+  display:block;
+  width:140px;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+  margin-left:4px;
+}
+.link_tricker4-1{
+	display:block;
+	width:295px;
+	height:75px;
+	margin-left:0px;
+	float:left;
+}
+.link_tricker4-2{
+	display:block;
+	width:129px;
+	height:75px;
+	margin-left:0px;
+	float:left;
+}
+
+
+
+/*FIN TRICKER 4---------------------*/
+
+
+
+/*DEBUT TRICKER 4 - V2---------(Only CCC)------------*/
+#tricker4-v2{
+	display:block;
+	width: 396px;
+	height: 95px;
+	background:url("https://www.abidjan.net/images/logoCCC_OLAM_sp.jpg") no-repeat;
+	background-position:0px 8px;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 150px;
+	float:left;
+	border-right: 1px dotted #DCDCDC;
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+ #tricker4-v2:hover,#tricker4-v2:active,#tricker4-v2:focus{
+	background-position:0px -99px;
+	float: left;
+}
+
+/*FIN TRICKER 4 - V2---------------------*/
+
+
+/*DEBUT TRICKER 5---------------------*/
+#tricker5{
+	display:block;
+	width:330px;
+	height: 95px;
+	background:url("https://www.abidjan.net/images/logoBICICI_sp.gif") no-repeat;
+	background-position:0 15px;
+	margin-top:0;
+	margin-left:10px;
+	float:left;
+	/*border-right: 1px dotted #DCDCDC;*/
+	
+}
+
+
+
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker5:hover,#tricker5:active,#tricker5:focus{
+  background-position:0 -103px;
+}
+.right_tricker5{
+	display:block;
+	width:180px;
+	float:left;
+	padding-top:12px;
+}
+
+.link_tricker5{
+  display:block;
+  width:170px;
+  height:85px;
+  margin-left:0px;
+  float:left;
+}
+.lg_tricker5-lft{
+	width:62px;
+	height:13px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	overflow:hidden;
+}
+
+.lg_tricker5-lft2{
+	width:92px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+
+.lg_date_tricker5{
+	display:block;
+	height:15px;
+	margin-bottom:2px;
+	/*float:right;
+	margin-right:35px;*/
+	float:left;
+	width: 160px;
+	/*text-align: right;*/
+}
+.lg_tricker5{
+	display:block;
+	height:15px;
+	margin-bottom:2px;
+	float:left;
+	width: 170px;
+}
+.lg_tricker5-ght{
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	padding-left:4px;
+	width: 87px;
+	overflow:hidden;
+}
+
+.right_tricker5 {
+  display: block;
+  width: 160px;
+  float: left;
+  padding-top: 12px;
+}
+
+
+.link_right_tricker5{
+	width:160px;
+	height: 80px;
+    position: relative !important;
+	/*left: 0 !important;
+    top: 0px !important;*/
+	left: -20px !important;
+    top: -18px !important;
+    z-index: 20px;	
+}
+
+.link_right_tricker5:hover{
+	background:url("https://www.abidjan.net/images/sponsoring/arrowR_Sp.gif") no-repeat;
+	background-position: 55px 5px ;
+	background-color:#FFFFFF;
+	opacity:0.7;
+}
+
+/*FIN TRICKER 5---------------------*/
+
+
+
+/*DEBUT TRICKER 6---------------------*/
+#tricker6{
+	display:block;
+	width:260px;
+	height: 95px;
+	background:url("https://www.abidjan.net/images/logoIPSP-CI_sp.gif") no-repeat;
+	background-position:0 22px;
+	margin-top:0;
+	margin-left:10px;
+	float:left;
+}
+
+
+
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+#tricker6:hover,#tricker6:active,#tricker6:focus{
+  background-position:0 -103px;
+  
+}
+.right_tricker6{
+	display:block;
+	width:140px;
+	float:left;
+	padding-top:12px;
+}
+
+.link_tricker6{
+  display:block;
+  width:114px;
+  height:85px;
+  margin-left:0px;
+  float:left;
+}
+.lg_tricker6-lft{
+	width:92px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+.lg_date_tricker6{
+	display:block;
+	height:15px;
+	margin-bottom:2px;
+	float:right;
+	/*margin-right:35px;*/
+	width: 140px;
+	/*text-align: right;*/
+}
+.lg_tricker6{
+	display:block;
+	height:15px;
+	margin-bottom:2px;
+	float:left;
+	width: 170px;
+}
+.lg_tricker6-ght{
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	padding-left:4px;
+	width: 70px;
+}
+
+.lg_tricker6-ght2{
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	padding-left:4px;
+	width: 40px;
+}
+
+.right_tricker6{
+	display:block;
+	width:140px;
+	float:left;
+	padding-top:12px;
+}
+
+.link_right_tricker6{
+	width:140px;
+	height: 80px;
+    position: relative !important;
+	left: 0 !important;
+    top: 0px !important;
+    z-index: 20px;	
+}
+
+.link_right_tricker6:hover{
+	background:url("https://www.abidjan.net/images/sponsoring/arrowR_Sp.gif") no-repeat;
+	background-position: 45px 10px ;
+	background-color:#FFFFFF;
+	opacity:0.7;
+}
+
+/*FIN TRICKER 6---------------------*/
+
+/*DEBUT TRICKER 7---------------------*/
+/*#tricker7-contener{
+	display:block;
+	height: 85px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 20px;
+	border-left: 1px dotted #DCDCDC;
+	border-right: 1px dotted #DCDCDC;*/
+	/*width:440px;*/
+	/*width:420px;
+}*/
+
+#tricker7-contener{
+	display:block;
+	height: 85px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 15px;
+	/*border-left: 1px dotted #DCDCDC;*/
+	float:left;
+}
+
+
+
+
+#tricker7{
+	display:block;
+	width: 458px;
+	height: 85px;
+	background:url("https://www.abidjan.net/images/sponsoring/logoCCA_sp.jpg") no-repeat;
+	background-position:0px 8px;
+	overflow: hidden;
+	/*margin: 0 auto;
+	margin-left: 18px;
+	float:left;
+	border-left: 1px dotted #DCDCDC;
+	border-right: 1px dotted #DCDCDC;*/
+
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+ #tricker7:hover,#tricker7:active,#tricker7:focus{
+	background-position:0px -100px;
+	/*float: left;*/
+}
+
+.link_tricker7{
+	display:block;
+	width:305px;
+	height:75px;
+	margin-left:0px;
+	float:left;
+}
+
+.right_tricker7{
+	display:block;
+	float:left;
+	margin-left: 0px !important;
+	width:142px;
+	/*width:120px;*/
+	padding-top: 19px;
+}
+
+.lg_tricker7{
+  display:block;
+  width:145px;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+  margin-left:4px;
+}
+
+.lg_tricker7-lft2{
+	width:62px;
+	/*width:42px;*/
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+.lg_date_tricker7{
+  display: block;
+  height: 15px;
+  margin-bottom: 2px;
+  float: right;
+  text-align: right;
+  padding-right: 1px;
+  margin-left: 10px;
+  padding-left: 15px;
+}
+
+
+/*FIN TRICKER 7---------------------*/
+
+/*DEBUT TRICKER 8---------------------*/
+#tricker8-contener{
+	display: block;
+    height: 85px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 140px;
+    padding: 0 20px;
+    float: left;
+    width: 237px;
+}
+
+
+#tricker8{
+	display:block;
+	width: 250px;
+	height: 85px;
+	background:url("https://www.abidjan.net/images/sponsoring/logoSaphyr_sp.jpg") no-repeat;
+	background-position:0px 0px;
+	overflow: hidden;
+	margin: 0 auto;
+	/*margin-left: 18px;
+	float:left;
+	border-left: 1px dotted #DCDCDC;*/
+	border-right: 1px dotted #DCDCDC;
+
+}
+
+/* on décale l'image de fond de la hauteur du lien, soit 31 px */
+ #tricker8:hover,#tricker8:active,#tricker8:focus{
+	background-position:0px -85px;
+	/*float: left;*/
+}
+
+
+.link_tricker8{
+	display: block;
+    width: 80px;
+    height: 75px;
+    margin-left: 0px;
+    float: left;
+}
+
+.right_tricker8{
+	display:block;
+	float:left;
+	margin-left: 0px !important;
+	/*width:150px;*/
+	width:165px;
+	padding-top: 19px;
+}
+
+.lg_tricker8{
+  display:block;
+  /*width:148px;*/
+  width: 143px;
+  height:15px;
+  margin-bottom:2px;
+  float:left;
+  margin-left:4px;
+}
+
+.lg_tricker8-lft2{
+	width: 42px;
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+}
+
+.lg_tricker8-ght{
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	padding-left:16px;
+}
+
+.lg_date_tricker8{
+  display: block;
+  height: 15px;
+  margin-bottom: 2px;
+  float: right;
+  text-align: right;
+  margin-right: 19px;
+}
+
+
+.link_right_tricker8{
+	width:165px;
+	height: 80px;
+    position: relative !important;
+	left: 0 !important;
+    top: 0px !important;
+    z-index: 20px;	
+}
+
+.link_right_tricker8:hover{
+	background:url("https://www.abidjan.net/images/sponsoring/arrowR_Sp.gif") no-repeat;
+	background-position: 45px 2px;
+	background-color:#FFFFFF;
+	opacity:0.7;
+}
+
+.ml190{margin-left:190px;}
+
+.width150{width:150px; margin-bottom:-10px}
+/*FIN TRICKER 8--------------------*/
+
+.txt_tricker_big_gray{
+	/*width:55px;*/
+	height:15px;
+	vertical-align:middle;
+	float:left;
+	display:block;
+	color:#999999;
+}
+
+
+/*--------------------FIN TRICKER----------------------------*/
+
+.boxTitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*font-weight: bolder;*/
+	font-style: normal;
+	font-variant: normal;
+	color: #595959;
+	margin:5px 0 10px;
+}
+
+.boxTitreRg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*font-weight: bolder;*/
+	font-style: normal;
+	font-variant: normal;
+	color: #D51835;
+	margin:5px 0 10px;
+}
+
+.boxTitreRgLign {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* font-weight: bolder; */
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+    margin: 4px;
+    display: inline !important;
+    float: left;
+    background: #D51835;
+    padding: 2px 4px;
+}
+
+
+.boxTitreVrt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*font-weight: bolder;*/
+	font-style: normal;
+	font-variant: normal;
+	color: #6FAA12;
+	margin:5px 0 10px;
+}
+
+.boxTitreGouv {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	/*font-weight: bolder;*/
+	font-style: normal;
+	font-variant: normal;
+	color: #595959;
+	margin:5px 0 10px;
+}
+
+.boxTitreBlanc {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*font-weight: bolder;*/
+	font-style: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	/*margin:5px 0 10px;*/
+}
+.FontCategory {
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #BC0000;
+}
+
+a.FontCategoryLink {
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #BC0000;
+}
+
+a.FontCategoryLink {
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #BC0000;
+	
+	
+}
+
+
+.FontMainTitle {
+	font-weight: bolder;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+	text-transform: none;
+	display:inline-block;
+	text-align:left;
+}
+
+
+table td a.FontMainTitle {
+	display:block;
+	text-align:left;
+}
+
+a.FontMainTitle2 {
+	/*display:block;*/
+	text-align:left;
+}
+
+/*--------------------DEBUT FLECHE UP--------------------------*/
+#fleche_up
+{
+	display:none;
+position: fixed;
+bottom: 80px;
+right: 35px;
+cursor: pointer;
+}
+#fleche_up img
+{
+	opacity:0.2;
+}
+#fleche_up img:hover
+{
+	opacity:1;
+}
+
+/*--------------------FIN FLECHE UP----------------------------*/
+
+/*--------------------DEBUT BOUTON FACEBOOK DEPECHE--------------------------*/
+.bulle_nombre
+{
+ font-size:11px;
+ color:#999999;
+ line-height:19px;
+ margin:2px 0 0;
+ text-align:center;
+ background-position:0 -230px;
+ height:18px;
+ text-indent:0;
+ width:40px;    
+ display:block;
+ border:1px solid #DDDDDD;
+ border-radius:10px 0 0 0;
+ 
+}
+/*--------------------FIN BOUTON FACEBOOK DEPECHE--------------------------*/
+
+
+
+
+
+
+
+
+/***********************Fin css SAPHIR***************************/
+#prix_gaz_saphir{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px; 
+font-weight: bolder;
+font-style: normal;
+font-variant: normal;
+color: #595959;margin: 5px 0 10px;
+text-align:center;
+	
+	}
+	
+	#cadre_gaz_saphir{
+width:253px;
+height:35px;
+ background:#9C6;
+  float:left;
+	}
+	
+	
+
+/***********************FIN BOX CARTE VISAS***************************/
+/***********************FIN CESS V3***************************/
+
+
+/***********************Encart prix du butan Saphir***************************/
+.prix-butan-saphir{
+	width:198px;
+	 height:20px;
+	  float:left;
+	   margin-left:5px;
+	    line-height:2.2;
+		  border-right:1px solid #DCDCDC;
+		  margin:3px;	
+		
+		}
+		
+.prix-butan-saphir-right{
+	width:198px;
+	 height:20px;
+	  float:left;
+	   margin-left:5px;
+	    line-height:2.2;
+		  margin:3px;	
+		
+		}
+/***********************fin Encart prix du butan Saphir***************************/
+
+		
+
+.likrek{
+color:#747676;
+}
+.likrek:hover{
+color:#fff;
+}
+
+.n-content{
+width:225px;
+height:130px;
+background:#000;
+padding:6px;
+position: absolute;
+bottom : 0px;
+position:fixed;
+right:0;
+margin-right:10px;
+margin-bottom:10px;
+float:left;
+overflow:hidden;
+}
+
+.n-content2{
+width:237px;
+height:161px;
+position: absolute;
+bottom : 0px;
+position:fixed;
+right:0;
+margin-right:7px;
+margin-bottom:7px;
+}
+
+#pic:hover + #cover-title{
+height: 58px;
+}
+#cover-title:hover{
+height: 58px;
+}
+
+#fermeture:active + #n-content2{
+margin-top:400px;
+}
+
+
+#pic{
+width:225px;
+height:130px;
+background:#000;
+float:left;	
+
+}
+.croix{
+marign-left:5px;
+float:right;
+margin-right:5px;
+font-weight:bold;
+color:#CCC;
+cursor:pointer;
+}
+
+
